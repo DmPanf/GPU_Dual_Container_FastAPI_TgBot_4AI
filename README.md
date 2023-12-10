@@ -24,6 +24,8 @@ Before diving in, make sure you have:
 3. Run `docker-compose up` to start the containers.
 4. Enjoy the power of integrated AI! 🎉
 
+---
+
 ### Usage 💡
 - **FastAPI Container**: Access it at `http://localhost:8000`. It's ready for your RESTful APIs and AI models.
 - **TgBot Container**: Interact with your Telegram Bot with AI capabilities right away.
@@ -34,7 +36,7 @@ We love collaborations! Feel free to fork, submit pull requests, or open issues 
 ### License 📄
 This project is released under [specify license], ensuring it's free and open-source. Dive in and explore! 📖🔓
 
-### Join Our Journey 🚀
+###  🚀
 
 
 
