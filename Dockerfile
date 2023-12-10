@@ -1,5 +1,6 @@
 # Dockerfile for YOLOv8
 # официальный базовый образ TensorFlow GPU Jupyter
+
 FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 # Установка необходимых пакетов и обновление системы
