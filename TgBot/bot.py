@@ -52,6 +52,7 @@ async def on_startup(dp):
     print(f'✴️  Бот {bot_name} запущен!')
 
 
+## ============== Fetch ===========
 #async def fetch(session, url):
 #    async with session.get(url) as response:  # Использование асинхронного менеджера контекста для выполнения GET-запроса
 #        return await response.text()          # Возврат текстового содержимого ответа
@@ -141,8 +142,6 @@ async def process_image(message: types.Message):
             await message.answer(f"⛔️ Сервер <b>FastAPI [{API_URL}]</b> недоступен!\n⌛️ Timeout=<b>{timeout} s</b>\n{e}", parse_mode="HTML")
 
 # +++++++++++++++ PHOTO +++++++++++++++
-
-
 @dp.message_handler(commands=['help'])
 async def send_help(message: types.Message):
     await message.answer(help_text, parse_mode="Markdown")
