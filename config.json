@@ -2,11 +2,11 @@
     "servers": [
         {
             "name": "SERVER-1 [api-serv.ru]",
-            "url": "http://api-serv.ru:8001"
+            "url": "http://Server1.ru:8001"
         },
         {
             "name": "SERVER-2 [ai-serv.ru]",
-            "url": "http://ai-serv.ru:8001"
+            "url": "http://Server2.ru:8001"
         },
         {
             "name": "SERVER-3 [localhost:8001]",
