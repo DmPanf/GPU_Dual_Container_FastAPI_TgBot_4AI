@@ -1,7 +1,20 @@
 import json
 from fastapi import FastAPI, HTTPException
 
-app = FastAPI()
+#app = FastAPI()
+tags_metadata = [
+    {
+        'name': 'items',
+        'description': 'items',
+    }
+]
+
+app = FastAPI(
+    title='Mini api',
+    description='API (Main Server)',
+    version='1.0.0',
+    openapi_tags=tags_metadata
+)
 
 # Функция для загрузки конфигурации
 def load_config():
