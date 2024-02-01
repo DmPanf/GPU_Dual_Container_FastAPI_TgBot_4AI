@@ -53,7 +53,7 @@ async def on_startup(dp):
 
 
 ## ============== Fetch ===========
-#async def fetch(session, url):
+# async def fetch(session, url):
 #    async with session.get(url) as response:  # Использование асинхронного менеджера контекста для выполнения GET-запроса
 #        return await response.text()          # Возврат текстового содержимого ответа
 
@@ -154,4 +154,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
