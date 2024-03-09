@@ -102,7 +102,6 @@ async def process_image(message: types.Message):
     file_path = file.file_path  # Получение пути к файлу 
 
     image_data = await bot.download_file(file_path)  # Загрузка изображения
-
     url = f'{API_URL}/predict'  # Отправка изображения на сервер 
 
     timeout = ClientTimeout(total=15)  # Устанавливаем общий таймаут в 15 секунд
@@ -151,6 +150,7 @@ async def send_help(message: types.Message):
 async def main():
     await on_startup(dp)
     await dp.start_polling()  # Запуск бота 
+
 
 if __name__ == '__main__':
     asyncio.run(main())
