@@ -1,5 +1,7 @@
 ## 🌟 Dual Container AI Integration Project: FastAPI & TgBot with GPU Acceleration 🌟
 
+---
+
 ### Introduction 🚀
 Welcome to our innovative AI project, where we seamlessly integrate FastAPI and Telegram Bot (TgBot) within a dual-container environment! This setup is designed to leverage the power of GPUs, providing high-performance solutions for complex AI tasks. 🤖✨
 
